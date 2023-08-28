@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+#nav-text-1 {
+    color: black;
+}
+
+#nav-text-2 {
+    color: black;
+}
+
+#nav-text-3 {
+    color: black;
+}
+
+#nav-text-4 {
+    color: black;
+}
+
+#nav-text-1 {
+    color: black;
+}
+
+#buton-solid {
+    border-color: orange;
+    border-style: solid;
+}
+
+.logo-fly {
+    height: 80px;
+    width: 130px;
+}
+
+.imge {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.caroueslhight{
+    height: 40vh;
+    background-size: cover;
+
+}
+
+.bg-container {
+    background-color: #ffffff;
+}
+
+.heading {
+    color: #183b56;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.paragraph {
+    color: #7b8794;
+    font-weight: 600;
+    padding: 8px;
+}
+
+.bg-card {
+    background-color: white;
+}
+
+.images {
+    height: 80px;
+    width: 80px;
+}
+
+.sub-heading {
+    color: #1f2933;
+    font-size: 20px;
+}
+.bg-container {
+    background-color: #ffffff;
+}
+
+.our-product {
+    color: #183b56;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.bg-card-1 {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-products-headphones-bg.png');
+    height: 290px;
+    width: 290px;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.bg-card-2 {
+    background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-products-laptops-bg.png');
+    height: 290px;
+    width: 290px;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.smart-headphones {
+    text-align: left;
+    color: #ffffff;
+    font-size: 25px;
+    width: 200px;
+
+}
+
+.smart-headphones-descripation {
+    color: #ffffff;
+    text-align: left;
+    font-size: 15px;
+    width: 235px;
+}
+
+.view-detail-button {
+    height: 38px;
+    width: 138px;
+    background-color: white;
+    color: #ff9f00;
+    border-radius: 20px;
+    border-width: 0px;
+}
+
+.span-element {
+    color: black;
+    font-weight: 600;
+}
+.services-card{
+    background-color: #ffffff;
+}
+
+.bg-container-offer {
+
+
+    background-image: linear-gradient(#f49541, #dd5d97, #ad2167);
+}
+
+.offer-imge {
+    height: 200px;
+    width: 240px;
+    width: 50%;
+}
+
+.applience-imge {
+    height: 170px;
+    width: 250px;
+    width: 95%;
+}
+
+.heading {
+    color: #ad2167;
+    font-size: 20px;
+    width: 300px;
+}
+
+.paragraph {
+    color: #ffffff;
+}
+
+.span-text {
+    font-style: italic;
+    font-weight: 600;
+}
+
+.span-text-2 {
+    color: yellow;
+}
+
+.small-para {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 6px;
+}
+
+.imge {
+    height: 80px;
+    width: 190px;
+}
+
+.trending-head {
+    color: #183b56;
+    font-size: 28px;
+    font-weight: bold;
+    padding-left: 10px;
+
+}
+
+.blogs-imge {
+    height: 120px;
+    width: 267px;
+    background-size: cover;
+}
+
+.fountaind-head {
+    color: #959ead;
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 7px;
+}
+
+.sub-heading {
+    color: #183b56;
+    font-size: 18px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.paragraph {
+    color: #959ead;
+    font-size: 20px;
+
+    padding-left: 10px;
+}
+
+.read-more-text {
+    color: #ff9f00;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-bottom: 20px;
+}
+
+.bg-container {
+    background-color: #f5f7fa;
+}
+
+.main-heading {
+    color: #183b56;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.card-1 {
+    background-color: #ffffff;
+}
+
+.sub-main-heading {
+    color: #183b56;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.top-imges {
+    height: 70px;
+    width: 90px;
+    border-radius: 8px;
+}
+
+.see-all-deals {
+    color: #ff9f00;
+    font-weight: bold;
+}
+
+.tv-imge {
+    height: 200px;
+    width: 220px;
+    border-radius: 12px;
+    padding-bottom: 8px;
+}
+
+.accessories {
+    height: 90px;
+    width: 100px;
+}
+
+.bg-container {
+    background-color: #f5f7fa;
+}
+
+.heading {
+    color: #183b56;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.button {
+    color: #ff9f00;
+    height: 36px;
+    width: 140px;
+    background-color: transparent;
+    border-style: solid;
+    border-color: #ff9f00;
+}
+
+.brand-logo {
+    height: 60px;
+    width: 90px;
+}
+
+.imge-card {
+    background-color: #152c3e;
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 30px;
+    margin: 5px;
+
+
+
+}
+
+.icon {
+    color: #5a7184;
+    font-size: 25px;
+}
+
+.paragraph {
+    color: #5a7184;
+}
+
+.bottom-heading {
+    color: #5a7184;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.line {
+    background-color: #5a7184;
+    font-weight: 100;
+    font-size: 25px;
+
+}
+.bg-footer{
+    background-color: #0d2436;
+}
