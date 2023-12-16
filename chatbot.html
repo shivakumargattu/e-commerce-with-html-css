@@ -1,11 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
-</head>
+<html>
 <body>
-    <iframe src='https://webchat.botframework.com/embed/flybuy-bot?s=WbTZqO-28HY.WoC7y31K-ATyLjTflAqR7IKk7faImXQrYPGEO9NEww0'  style='min-width: 400px; width: 100%; min-height: 500px;'></iframe> 
+  <iframe id="chat" style="width: 400px; height: 400px;" src='<iframe src='https://webchat.botframework.com/embed/flybott-bot?t=iRkYkn5AlHg.XTh0yrV5tp1Tn3PN72yHsG1DGZEsYP74LYmcZGpOArU'  style='min-width: 400px; width: 100%; min-height: 500px;'></iframe>'></iframe>
 </body>
+<script>
+
+    var xhr = new XMLHttpRequest();
+    xhr.open('GET', "https://webchat.botframework.com/api/tokens", true);
+    xhr.setRequestHeader('Authorization', 'BotConnector ' + 'iRkYkn5AlHg.XTh0yrV5tp1Tn3PN72yHsG1DGZEsYP74LYmcZGpOArU');
+    xhr.send();
+    xhr.onreadystatechange = processRequest;
+
+    function processRequest(e) {
+      if (xhr.readyState == 4  && xhr.status == 200) {
+        var response = JSON.parse(xhr.responseText);
+        document.getElementById("chat").src="https://webchat.botframework.com/embed/<flybott-bot>?t="+response
+      }
+    }
+
+  </script>
 </html>
